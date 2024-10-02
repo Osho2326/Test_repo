@@ -1,0 +1,18 @@
+type: r_assignment
+title: "Basic Arithmetic Operations"
+questions:
+  - question: "If you have 3 apples and you buy 5 more apples. How many apples do you have in total?"
+    code: 
+      - "total_apples <- 3 + 5"
+      - "total_apples"
+    expected: 8
+  - question: "You have 10 candies and you give away 4 candies. How many candies do you have in total?"
+    code:
+      - "total_candies <- 10 - 4"
+      - "total_candies"
+    expected: 6
+  - question: "Each pen costs 2 US dollars. If you bought 7 pens, how much did you spend in total?"
+    code:
+      - "total_cost <- 7 * 2"
+      - "total_cost"
+    expected: 14
